@@ -1,0 +1,158 @@
+{
+    "blogs": [
+      {
+        "id": 1,
+        "img":"/photo/Html.png",
+        "title": "HTML",
+        "category": "programming",
+        "content": "HTML 5  เป็นเวอร์ชันล่าสุดของภาษา HTML ซึ่งใช้สำหรับสร้างและแสดงเว็บเพจบนเว็บไซต์ โดย HTML 5 ได้รับการพัฒนาขึ้นเพื่อปรับปรุงความสามารถและประสิทธิภาพในการสร้างเว็บเพจให้มีประสิทธิภาพมากยิ่งขึ้น ",
+        "author": "Ice Man",
+        "link": "profile1.html",
+        "views": 1500
+      },
+      {
+        "id": 2,
+        "img":"/photo/CSS.png",
+        "title": "CSS",
+        "category": "programming",
+        "content": "CSS  เป็นภาษาสไตล์ที่ใช้ในการแสดงผลและจัดรูปแบบเว็บเพจ (หรือเอกสาร XML) บนเว็บไซต์ โดย CSS ช่วยให้ผู้พัฒนาเว็บสามารถกำหนดรูปแบบการแสดงผลของเนื้อหาได้ เช่น การกำหนดสีพื้นหลัง, ขนาดตัวอักษร, รูปแบบตาราง ",
+        "author": "Ice Man",
+        "link": "profile1.html",
+        "views": 1200
+      },
+      {
+        "id": 3,
+        "img":"/photo/Javascript.png",
+        "title": "JavaScrtip",
+        "category": "programming",
+        "content": "JavaScript เป็นภาษาโปรแกรมมิ่งที่ใช้สำหรับเพิ่มความแบบสแตนด์ (interactivity) และฟังก์ชันต่าง ๆ ให้กับเว็บไซต์ โดยสามารถใช้ JavaScriptเพื่อปรับเปลี่ยนเนื้อหา, สร้างและจัดการกับองค์ประกอบต่าง ๆ ของเว็บ",
+        "author": "Ice Man",
+        "link": "profile1.html",
+        "views": 1100
+      },
+      {
+        "id": 4,
+        "img":"/photo/React.png",
+        "title": "React",
+        "category": "programming",
+        "content": "React เป็นไลบรารี JavaScript ที่ใช้สำหรับการพัฒนาอินเทอร์เฟซผู้ใช้ (UI) ในเว็บแอปพลิเคชัน โดย React ถูกพัฒนาโดย Facebook และเปิดตัวเป็นโอเพนซอร์สในปี 2013 ซึ่งได้รับความนิยมและการใช้งานมากขึ้นเรื่อย ๆ ในวงกว้าง ",
+        "author": "John Doe",
+        "link": "profile2.html",
+        "views": 1100
+      },
+      {
+        "id": 5,
+        "img":"/photo/Nodejs.png",
+        "title": "Nodejs",
+        "category": "programming",
+        "content": "Node.js เป็นแพลตฟอร์มที่ใช้ในการเรียกใช้โค้ด JavaScript ฝั่งเซิร์ฟเวอร์ (server-side) ซึ่งมีความแตกต่างกับ JavaScript ที่ใช้ในเว็บเบราว์เซอร์  โดยปกติแล้ว โปรแกรม JavaScript จะถูกดำเนินการบนเว็บเบราว์เซอร์เท่านั้น",
+        "author": "John Doe",
+        "link": "profile2.html",
+        "views":1000
+      },
+      {
+        "id": 6,
+        "img":"/photo/Json.png",
+        "title": "Json",
+        "category": "programming",
+        "content": "JSON (JavaScript Object Notation) เป็นรูปแบบของข้อมูลที่ใช้ในการแลกเปลี่ยนข้อมูลระหว่างเซิร์ฟเวอร์และไคลเอนต์โดยมีรูปแบบที่เป็นข้อมูลแบบข้อความ (text-based) ",
+        "author": "John Doe",
+        "link": "profile2.html",
+        "views": 990
+      }
+      ,
+      {
+        "id": 7,
+        "img":"/photo/categaryimg/Run.jpg",
+        "title": "Run",
+        "category": "health",
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic ",
+        "author": "John Doe",
+        "link": "profile2.html",
+        "views": 950
+      }
+      ,
+      {
+        "id": 8,
+        "img":"/photo/categaryimg/Tarvel.jpg",
+        "title": "Tarvel",
+        "category": "tarvel",
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic  ",
+        "author": "John Doe",
+        "link": "profile2.html",
+        "views": 800
+      }
+      ,
+      {
+        "id": 9,
+        "img":"/photo/categaryimg/Tarvel2.jpg",
+        "title": "Tarvel",
+        "category": "tarvel",
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic  ",
+        "author": "John Doe",
+        "link": "profile2.html",
+        "views": 800
+      }
+      ,
+      {
+        "id": 10,
+        "img":"/photo/categaryimg/Movie.jpg",
+        "title": "Movie",
+        "category": "movie",
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic ",
+        "author": "John Doe",
+        "link": "profile2.html",
+        "views": 800
+      },
+      {
+        "id": 11,
+        "img":"/photo/categaryimg/Tarvel.jpg",
+        "title": "Tarvel",
+        "category": "tarvel",
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic ",
+        "author": "John Doe",
+        "link": "profile2.html",
+        "views": 800
+      },
+      {
+        "id": 12,
+        "img":"/photo/categaryimg/program.jpg",
+        "title": "Programming",
+        "category": "programming",
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic  ",
+        "author": "John Doe",
+        "link": "profile2.html",
+        "views": 100
+      },
+      {
+        "id": 13,
+        "img":"/photo/categaryimg/program.jpg",
+        "title": "Programming",
+        "category": "programming",
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic  ",
+        "author": "John Doe",
+        "link": "profile2.html",
+        "views": 100
+      },
+      {
+        "id": 14,
+        "img":"/photo/categaryimg/program.jpg",
+        "title": "Programming",
+        "category": "programming",
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic  ",
+        "author": "John Doe",
+        "link": "profile2.html",
+        "views": 100
+      },
+      {
+        "id": 15,
+        "img":"/photo/categaryimg/program.jpg",
+        "title": "Programming",
+        "category": "programming",
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic  ",
+        "author": "John Doe",
+        "link": "profile2.html",
+        "views": 100
+      }
+    ]
+  }

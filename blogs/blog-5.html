@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../blog.css">
+</head>
+<body>
+   <div class="container">
+       <nav>
+           <div class="nav-con">
+            <div class="logo">
+                <a href="../home.html">Blog</a>
+             </div>
+           <ul class="menu">            
+               <li><a href="../home.html">Home</a></li>
+               <li><a href="../createBlog.html">Create</a> </li>    
+               <li><a href="../category.html">Category</a> </li>           
+               <li><a href="../search.html">Search</a> </li>
+               <li><a href="">Login</a> </li>
+               <li> <a href="">Register</a></li>
+           </ul>
+           </div>
+       </nav> 
+        <div class="blog-con">
+            <div class="blog-img">
+                <img src="../photo/Nodejs.png" alt="">
+            </div>
+            <div class="blog">      
+                <div class="profile-con">
+                    <div class="profile-img">
+                        <a href="../profile2.html"><img src="../photo/avataaars.png" alt=""> </a>
+                    </div>
+                    <div class="profile-info" >
+                        <h3>เขียนโดย</h3>
+                       <a href="../profile2.html"><h4>John Doe</h4> </a> 
+                        <p>Frontend developer</p>           
+                    </div>         
+                </div>
+            </div>
+            <div class="blog-content">
+                <h2>Node.js</h2>
+                <p>
+                    
+Node.js เป็นแพลตฟอร์มที่ใช้ในการเรียกใช้โค้ด JavaScript ฝั่งเซิร์ฟเวอร์ (server-side) ซึ่งมีความแตกต่างกับ JavaScript 
+ที่ใช้ในเว็บเบราว์เซอร์ (client-side) โดยปกติแล้ว โปรแกรม JavaScript จะถูกดำเนินการบนเว็บเบราว์เซอร์เท่านั้น แต่ Node.js 
+ทำให้สามารถรัน JavaScript ได้ที่ฝั่งเซิร์ฟเวอร์ด้วย Node.js ถูกพัฒนาโดย Ryan Dahl และถูกเปิดตัวเป็นโอเพนซอร์สในปี 2009
+ ซึ่งมีจุดมุ่งหมายในการช่วยให้ผู้พัฒนาสามารถสร้างแอปพลิเคชันเว็บที่มีประสิทธิภาพสูง
+โดย Node.js มีระบบเหตุการณ์ (event-driven) และโมเดล I/O ที่ไม่บล็อก (non-blocking I/O) 
+ซึ่งช่วยให้สามารถจัดการกับการทำงานแบบพร้อมกันได้หลายอย่างโดยไม่ต้องรอให้การทำงานเสร็จก่อน
+Node.js มีประโยชน์ในการพัฒนาเว็บเซิร์ฟเวอร์, แอปพลิเคชันเครือข่าย (network applications), 
+และไฟล์เซิร์ฟเวอร์ (file servers) โดยเฉพาะในงานที่ต้องการการทำงานแบบ real-time หรือการประมวลผลแบบกระจาย 
+(distributed processing) อย่างชัดเจน นอกจากนี้ Node.js ยังมีระบบชุดเครื่องมือที่สมบูรณ์และเสถียรที่ช่วยในการพัฒนาอย่างเช่น
+npm (Node Package Manager) ซึ่งเป็นเครื่องมือในการจัดการและแบ่งปันโมดูลของ 
+Node.js และ Express.js ซึ่งเป็นเฟรมเวิร์กสำหรับพัฒนาเว็บเซิร์ฟเวอร์ด้วย Node.js ที่มีความนิยมอย่างแพร่หลาย</p>
+               
+            </div>
+            <div class="comment">
+                <input type="text" placeholder="comment...">
+                <button>Submit</button>
+            </div>
+        </div>
+   </div>
+    
+</body>
+</html>

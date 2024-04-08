@@ -1,0 +1,43 @@
+.category-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+/*    
+    border: 1px solid red; */
+    flex-wrap: wrap;
+
+}
+
+.card-category{
+    display: flex;
+    margin: 10px 5px;
+    width: 36rem;
+    height: 70px;
+    align-items: center;
+    border: 1px solid rgb(202, 202, 202);
+    background-size:36rem, cover;
+
+
+    color: #000000;
+
+}
+
+@media screen and (max-width: 770px) {
+    .category-container {
+       
+        padding: 2rem;
+        margin-top: 3rem;
+        width: 100%;
+      
+        
+    }
+
+    .card-category{
+        padding: 4px;
+        margin: 10px 0;
+        width: 380px;
+        height: 70px;
+        border: 1px solid red;
+    
+    }
+  }

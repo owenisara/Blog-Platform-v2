@@ -1,0 +1,31 @@
+{
+    "category":[ 
+        {
+        "id":1,
+        "name":"Programming",
+        "img":"/photo/categaryimg/program2.jpg",
+        "link":"programming.html"
+        
+        
+        },
+        {
+        "id":2,
+        "name":"Health",
+        "img":"/photo/categaryimg/Run.jpg",
+        "link":"health.html"
+        },
+        {
+        "id":3,
+        "name":"Tarvel",
+        "img":"/photo/categaryimg/Tarvel.jpg",
+         "link":"tarvel.html"
+        },
+        {
+        "id":4,
+        "name":"Movie",
+        "img":"/photo/categaryimg/movie.jpg",
+        "link":"movie.html"
+        }
+        
+    ]
+}

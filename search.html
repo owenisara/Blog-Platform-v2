@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="cards.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="nav-con">
+            <div class="logo">
+               <a href="home.html">Blog</a>
+            </div>
+            <ul class="menu">            
+                <li><a href="home.html">Home</a></li>
+                <li><a href="createBlog.html">Create</a> </li>
+                <li><a href="category.html">Category</a> </li> 
+                <li><a href="search.html">Search</a> </li> 
+                <!-- <li><input type="text" class="search" placeholder="search..."> </li> -->
+                <li><a href="">Login</a> </li>
+                <li> <a href="">Register</a></li>
+            </ul>
+            </div>
+        </nav>
+        <h2>Search</h2>
+        <div>
+            <form class="search" >              
+                <input type="text" id="searchtext" placeholder="search..">
+                <button onclick="searchdata(event)">Search</button>                       
+            </form>
+           
+        </div>
+        <div >
+            
+             <div id="search_con" class="card-container">
+               
+            </div>
+        </div>
+
+
+        <p id="demo"></p>
+        </div>
+
+        <script src="search.js"></script>
+</body>
+</html>

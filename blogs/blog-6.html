@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../blog.css">
+</head>
+<body>
+   <div class="container">
+       <nav>
+           <div class="nav-con">
+            <div class="logo">
+                <a href="../home.html">Blog</a>
+             </div>
+           <ul class="menu">            
+               <li><a href="../home.html">Home</a></li>
+               <li><a href="../createBlog.html">Create</a> </li>   
+               <li><a href="../category.html">Category</a> </li>            
+               <li><a href="../search.html">Search</a> </li>
+               <li><a href="">Login</a> </li>
+               <li> <a href="">Register</a></li>
+           </ul>
+           </div>
+       </nav> 
+        <div class="blog-con">
+            <div class="blog-img">
+                <img src="../photo/Json.png" alt="">
+            </div>
+            <div class="blog">      
+                <div class="profile-con">
+                    <div class="profile-img">
+                        <a href="../profile2.html"><img src="../photo/avataaars.png" alt=""> </a>
+                    </div>
+                    <div class="profile-info" >
+                        <h3>เขียนโดย</h3>
+                       <a href="../profile2.html"><h4>John Doe</h4> </a> 
+                        <p>Frontend developer</p>           
+                    </div>         
+                </div>
+            </div>
+            <div class="blog-content">
+                <h2>JSON (JavaScript Object Notation)</h2>
+                <p>             
+                    JSON (JavaScript Object Notation) เป็นรูปแบบของข้อมูลที่ใช้ในการแลกเปลี่ยนข้อมูลระหว่างเซิร์ฟเวอร์และไคลเอนต์
+                     โดยมีรูปแบบที่เป็นข้อมูลแบบข้อความ (text-based) ที่สามารถอ่านได้ง่ายโดยมนุษย์และสามารถสร้างและแก้ไขได้ด้วยโปรแกรมคอมพิวเตอร์ได้อย่างสะดวก
+                    JSON มีโครงสร้างแบบกลางที่ประกอบด้วยคู่คีย์-ค่า (key-value pairs) ที่จัดเก็บข้อมูลในรูปแบบของออบเจ็กต์ (objects) หรืออาเรย์ (arrays)
+                     และสามารถซ้อนกันได้ โดยรูปแบบหลักของ JSON จะเป็นดังนี้:                                
+                    <pre>                        
+                      {"key1": "value1",
+                      "key2": "value2",
+                      "key3": {"nestedKey1": "nestedValue1",
+                               "nestedKey2": "nestedValue2"},                      
+                      "key4": ["value3", "value4"]}
+                    </pre>
+                   
+                    ในตัวอย่างข้างบนนี้ เป็น JSON ที่ประกอบด้วยออบเจ็กต์ที่มีคู่คีย์-ค่า และอาเรย์ โดยมีโครงสร้างดังนี้:
+                    
+                    "key1", "key2", "key3", "key4" เป็นคีย์ที่มีค่าเป็นข้อมูลชนิดต่าง ๆ
+                    "value1", "value2" เป็นค่าของคีย์ "key1" และ "key2"
+                    "key3" เป็นคีย์ที่มีค่าเป็นออบเจ็กต์ซ้อนอยู่ข้างใน
+                    "nestedKey1", "nestedKey2" เป็นคีย์ของออบเจ็กต์ซ้อน "key3"
+                    "key4" เป็นคีย์ที่มีค่าเป็นอาเรย์ของข้อมูล
+                    JSON มักถูกใช้ในการส่งข้อมูลระหว่างเว็บเซิร์ฟเวอร์และไคลเอนต์ผ่าน HTTP Request และ Response 
+                    และยังถูกใช้ในการเก็บข้อมูลและการกำหนดค่าในการตั้งค่าของแอปพลิเคชันต่าง ๆ อีกด้วย เนื่องจาก JSON เป็นรูปแบบข้อมูลที่ยืดหยุ่น
+                     และสามารถอ่านได้ง่าย ไม่ว่าจะเป็นภาษาโปรแกรมมิ่งใดก็สามารถใช้ได้ง่ายและสะดวก</p>
+               
+            </div>
+            <div class="comment">
+                <input type="text" placeholder="comment...">
+                <button>Submit</button>
+            </div>
+        </div>
+   </div>
+    
+</body>
+</html>
